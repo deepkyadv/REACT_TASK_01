@@ -14,7 +14,7 @@ function DynamicComponent() {
 
   return (
     <div className='dynamic-component-container'>
-      <h1>Dynamic Add Child Component</h1>
+      <h1>6. Dynamic Add Child Component</h1>
       <button onClick={addComponent}>Add Component</button>
       <div>
         {components.map((component, index) => (
