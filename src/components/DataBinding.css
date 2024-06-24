@@ -1,0 +1,36 @@
+.data-binding-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-binding-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .data-binding-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .data-binding-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .data-binding-container p {
+    font-size: 18px;
+    color: #555;
+  }
+  

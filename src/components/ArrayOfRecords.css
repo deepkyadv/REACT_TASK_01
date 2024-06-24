@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .records-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .record-item {
+    background: #f9f9f9;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .record-item h3 {
+    display: inline;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .record-item:nth-child(odd) {
+    background: #e9e9e9;
+  }
+  
+  @media (min-width: 600px) {
+    .records-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .record-item {
+      flex: 1 1 calc(33.333% - 20px);
+      margin: 10px;
+    }
+  }
+  

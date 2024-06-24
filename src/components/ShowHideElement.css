@@ -1,0 +1,46 @@
+.showhide h1{
+    margin-top: 100px;
+}
+.showhide {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .showhide h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .showhide button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .showhide button:hover {
+    background-color: #0056b3;
+  }
+  
+  .showhide h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    transition: opacity 0.3s ease;
+  }
+  
+  .showhide h3.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
