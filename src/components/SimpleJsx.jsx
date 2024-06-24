@@ -3,7 +3,8 @@ function SimpleJsx() {
   return (
     <>
     
-    <h1>1.Display Simple jsx</h1> <br/>
+    <h4>1.Display Simple jsx</h4> 
+      <h1>Hello World!</h1>
     </>
   )
 }
