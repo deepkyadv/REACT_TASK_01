@@ -9,13 +9,11 @@ function EnableDisableButton() {
   const handleNum1Change = (e) => {
     const value = e.target.value;
     setNum1(value);
-    setIsButtonDisabled(!isValidNumber(value, num2));
   };
 
   const handleNum2Change = (e) => {
     const value = e.target.value;
     setNum2(value);
-    setIsButtonDisabled(!isValidNumber(num1, value));
   };
 
   const handleSum = () => {
@@ -30,7 +28,7 @@ function EnableDisableButton() {
   };
 
   return (
-    <div className='container1'>
+    <div className='container'>
       <h1>7. Sum of Two Numbers with Enable/Disable Button</h1>
       <input
         type="number"
