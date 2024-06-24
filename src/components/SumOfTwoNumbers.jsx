@@ -16,7 +16,7 @@ function SumOfTwoNumbers() {
 
   return (
     <div className="sum-container">
-    <h1>Sum of two numbers</h1>
+    <h1>7. Sum of two numbers</h1>
     <input className="sum-input" type='number' value={num1} onChange={(e) => setNum1(e.target.value)}/>
     <input className="sum-input" type='number' value={num2} onChange={(e) => setNum2(e.target.value)}/>
     <button className="sum-button" onClick={handleSum}>add</button>
