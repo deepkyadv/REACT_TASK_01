@@ -29,7 +29,7 @@ function EnableDisableButton() {
 
   return (
     <div className='container'>
-      <h1>7. Sum of Two Numbers with Enable/Disable Button</h1>
+      <h1>4. Sum of Two Numbers with Enable/Disable Button</h1>
       <input
         type="number"
         value={num1}
